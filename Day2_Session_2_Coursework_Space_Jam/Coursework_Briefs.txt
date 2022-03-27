@@ -1,0 +1,69 @@
+Possible Future Coursework
+ Project Briefs
+https://tinyurl.com/lccsprojects 
+
+Choose one of the three coursework ideas below and work an idea through to prototype. Given that this is a Raspberry Pi workshop, now would be a great opportunity to try use your Raspberry Pi, Camera and other sensors available to build a prototype while there are peers and mentors close by! Of course these don’t have to be done with a Raspberry Pi and it’s good to think about how a Micro Bit might be used to do these differently.
+
+
+Coursework 1: Sensors/Camera Tracking Physical Performance
+
+“The pandemic has changed our habits of physical activity and exercise, some for better, some for worse. 
+
+Basic: Create an artefact using an embedded system that helps track or analyse exercise using digital or analogue sensors. 
+
+Advanced: The program should use statistics to make recommendations based on the analysis of the data”.
+
+(ALT2 Graphs /ALT4 Sensors) 
+
+
+-Ideas: Camera looking at form in golf/tennis, colour tracking of a ball, calculation of speed of ball or speed of athlete speed from camera colour track or light sensors/contact sensors.
+
+
+
+
+
+
+Coursework 2: Physical and statistical simulations
+
+“By recording data such as hits, misses and other statistics, the physical performance of a sportsperson can be statistically simulated and predictions made about their likely future performance. 
+
+Basic: Create a model that can predict one or more probable outcomes for a system in a sport or game. The outcome for this simulation should be displayed on a simple website. 
+
+Advanced: Add controls to parameters of the simulation to be changed and data to show the likelihood of a given outcome.
+
+ (ALT3 Modelling & Simulation/ALT2 Graphs) 
+
+
+
+Ideas: Record sports data eg. over, short, goal , create histogram of outcomes and use weighted random choice/numbers to mimic the performance in python.
+
+
+
+
+
+Microsoft’s “ClusterDuck” floating mesh network for floods
+
+Coursework 3: Communication systems
+
+In an emergency situation where traditional phone or internet communication has suffered an outage, novel back-up ways of communication can prove vital.
+
+Basic: Create using an embedded system a novel way of communication that does not use existing telecommunications networks or infrastructure. A user should be able to edit the contents of their message and the receiver should be able to reply.
+
+Create a website with instructions for operating your communication system. 
+
+Advanced: Create a way of encoding messages with an extra layer of security. Your code  should have a key that allows anyone with it to decode your message.
+
+-Ideas: System of LED lights, Buzzers tapping a code like tap or Morse code
+
+
+
+
+Famous uses of morse code:
+
+
+
+
+
+Or make up your own!
+Other topical issues to make your own coursework brief: “Misinformation”, “World Security”, “Navigation/self driving”, “Space Science and extreme weather”
+
