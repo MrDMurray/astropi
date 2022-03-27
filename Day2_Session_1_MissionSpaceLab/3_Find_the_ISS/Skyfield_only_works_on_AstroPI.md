@@ -1,0 +1,1 @@
+The skyfield code is very tricky to get working on Thonny. Seems to be a library on the AstroPi or something missing. Basically works great on the ESA AstroPi. Never got it working on a PC despite trying to install loads of modules etc.
