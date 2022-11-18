@@ -14,3 +14,7 @@ Another issue I had with Picamera2 is that when I used it at the start of a pyth
 
 The workaround is not to use them together in the same program. Use one python program to capture your photos. Then use another to convert them into NDVI.
 
+Files above:
+
+001_cam2test.py Takes pictures on the newer Bullseye Raspberry Pi OS.
+
