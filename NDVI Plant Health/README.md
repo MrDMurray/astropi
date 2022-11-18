@@ -19,3 +19,5 @@ Files above:
 001_cam2test.py Takes pictures on the newer Bullseye Raspberry Pi OS.
 
 002_SingleFileNDVI.py Takes one single picture and converts it into NDVI. On a Raspi3 this can take a while.
+
+003_ndviMultipleFiles.py Takes multiple files and converts them into NDVI with no previews. Pictures need to be in the same folder as the python file.
