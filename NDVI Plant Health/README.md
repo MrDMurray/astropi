@@ -1,7 +1,7 @@
 # Nov 2022 Update: PiCamera expired
 
 The NDVI tutorial at https://projects.raspberrypi.org/en/projects/astropi-ndvi is great but I could not get CV2 to work on the supplied AstroPi kit.
-It throws up an error about rebuilding a library. 
+It throws up an error about rebuilding a library. I might be wrong but whatever stuff is on there for the Coral Machine Learning seems to break OpenCV.
 
 *A regular install of a Raspberry Pi image from https://www.raspberrypi.com/software/ fixes the error*. The NDVI tutorial now works great.
 That is except for the extra bit at the end that talks about using PiCamera. I did try "Re-enabling the Legacy Camera" but Picamera still wasn't working. That's why my files above use PiCamera2.
