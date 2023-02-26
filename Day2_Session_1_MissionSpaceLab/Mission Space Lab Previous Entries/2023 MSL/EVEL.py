@@ -1,4 +1,4 @@
-# Team Earthies!
+# Team EVEL
 
 from pathlib import Path
 from logzero import logger, logfile
@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import csv
 
 """
-By Eabha Mc Bride and Leah Mullen
+Team EVEL is Eabha Mc Bride and Leah Mullen
 
 Our program will take a scattergun array of images, these will be processed by our Coral Accelerator back on Earth
 so that cloud types can be put into categories.
