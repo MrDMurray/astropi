@@ -4,10 +4,11 @@ Enjoy!
 
 You can copy this down to your Raspberry Pi:
 
-git clone
-https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-
-git clone https://github.com/MrDMurray/astropi
-
+```python
+    sudo git clone https://github.com/MrDMurray/astropi
+``` 
 This repo is 97MB in size.
+
+
+In general you can clone anything with git clone
+https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
