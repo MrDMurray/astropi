@@ -9,3 +9,5 @@ https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 
 git clone https://github.com/MrDMurray/astropi
+
+This repo is 97MB in size.
