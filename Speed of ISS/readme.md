@@ -2,8 +2,6 @@
 
 ### Calculating the Speed of the ISS Using Speed-Distance-Time Formula
 
-#### Introduction
-
 The speed of an object in constant motion can be calculated using the simple formula:
 
 \`\`\`
@@ -11,8 +9,6 @@ Speed = Distance / Time
 \`\`\`
 
 We can use this formula to calculate the speed of the International Space Station (ISS) as it orbits Earth.
-
-#### The Math Behind It
 
 1. **Orbit Circumference**: The ISS orbits Earth at an altitude of about 408,000 meters. The Earth's radius is approximately 6,371,000 meters. To find the distance the ISS travels in one complete orbit, we calculate the circumference of the circle defined by its orbit:
 
@@ -34,7 +30,7 @@ Speed = Circumference / Time in seconds
 
 #### Python Code
 
-\`\`\`python
+```python
 import math
 
 # Constants
@@ -49,11 +45,11 @@ orbit_circumference = 2 * math.pi * (earth_radius + iss_altitude)
 iss_speed = orbit_circumference / orbit_time
 
 print("The speed of the ISS is approximately", round(iss_speed, 2), "meters per second.")
-\`\`\`
 
----
+```
 
-## Method 2: Gravitational Force
+
+## Method 2: Using Newtons's Gravitational Law (Force)
 
 The gravitational force between two masses is given by the formula:
 
@@ -77,3 +73,28 @@ Where:
 - `r` is the distance from the center of Earth to the ISS
 
 ---
+
+
+```python
+
+# Method 2.
+
+import math
+
+# Constants
+G = 6.67430e-11  # Gravitational constant in m^3/kg s^2
+M = 5.972e24  # Mass of Earth in kg
+earth_radius = 6371000  # Radius of Earth in meters
+iss_altitude = 408000  # Altitude of ISS in meters
+
+# Calculate distance from center of Earth to ISS
+r = earth_radius + iss_altitude
+
+# Calculate the speed of ISS using Newton's Law of Gravitation
+iss_speed = math.sqrt((G * M) / r)
+
+print("The speed of the ISS is approximately", round(iss_speed, 2), "meters per second.")
+
+```
+
+
