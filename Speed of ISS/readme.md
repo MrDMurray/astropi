@@ -7,9 +7,6 @@
 
 The speed of an object in constant motion can be calculated using the simple formula:
 
-\[
-\text{Speed} = \frac{\text{Distance}}{\text{Time}}
-\]
 
 ![equation]([https://latex.codecogs.com/gif.latex?Speed%20%3D%20%5Cfrac%7BDistance%7D%7BTime%7D](https://latex.codecogs.com/svg.image?{Speed}=\frac{\text{Distance}}{\text{Time}}))
 
@@ -21,9 +18,7 @@ We can use this formula to calculate the speed of the International Space Statio
 
 1. **Orbit Circumference**: The ISS orbits Earth at an altitude of about 408,000 meters. The Earth's radius is approximately 6,371,000 meters. To find the distance the ISS travels in one complete orbit, we calculate the circumference of the circle defined by its orbit:
 
-\[
-\text{Circumference} = 2 \times \pi \times (\text{Earth's Radius + ISS Altitude})
-\]
+<img src="https://latex.codecogs.com/svg.image?{Speed}=\frac{\text{Distance}}{\text{Time}}\text{Circumference}=2\times\pi\times(\text{Earth's&space;Radius&plus;ISS&space;Altitude})" title="{Speed}=\frac{\text{Distance}}{\text{Time}}\text{Circumference}=2\times\pi\times(\text{Earth's Radius+ISS Altitude})" />
 
 2. **Time for One Orbit**: The ISS takes about 92 minutes to complete one orbit. To convert this time into seconds (for consistency with our distance unit, meters), we use:
 
