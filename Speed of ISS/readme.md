@@ -7,7 +7,7 @@
 
 The speed of an object in constant motion can be calculated using the simple formula:
 
-```css Speed = Distance / Time```
+``` Speed = Distance / Time```
 
 We can use this formula to calculate the speed of the International Space Station (ISS) as it orbits Earth.
 
