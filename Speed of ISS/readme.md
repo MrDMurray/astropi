@@ -11,7 +11,7 @@ The speed of an object in constant motion can be calculated using the simple for
 \text{Speed} = \frac{\text{Distance}}{\text{Time}}
 \]
 
-![equation](https://latex.codecogs.com/gif.latex?Speed%20%3D%20%5Cfrac%7BDistance%7D%7BTime%7D)
+![equation]([https://latex.codecogs.com/gif.latex?Speed%20%3D%20%5Cfrac%7BDistance%7D%7BTime%7D](https://latex.codecogs.com/svg.image?{Speed}=\frac{\text{Distance}}{\text{Time}}))
 
 
 
