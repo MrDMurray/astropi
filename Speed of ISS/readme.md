@@ -59,10 +59,7 @@ print("The speed of the ISS is approximately", round(iss_speed, 2), "meters per 
 
 The gravitational force between two masses is given by the formula:
 
-\[
-F = \frac{G \times m_1 \times m_2}{r^2}
-\]
-
+<img src="https://latex.codecogs.com/svg.image?{Speed}=\frac{\text{Distance}}{\text{Time}}\text{Circumference}=2\times\pi\times(\text{Earth's&space;Radius&plus;ISS&space;Altitude})[F=\frac{G\times&space;m_1\times&space;m_2}{r^2}]" title="{Speed}=\frac{\text{Distance}}{\text{Time}}\text{Circumference}=2\times\pi\times(\text{Earth's Radius+ISS Altitude})[F=\frac{G\times m_1\times m_2}{r^2}]" />
 Here, \( F \) is the gravitational force, \( G \) is the gravitational constant, \( m_1 \) and \( m_2 \) are the masses, and \( r \) is the distance between them.
 
 The centripetal force \( F \) that keeps the ISS in orbit is equal to \( m \times a \), where \( m \) is the mass of the ISS and \( a \) is the centripetal acceleration, \( \frac{v^2}{r} \).
