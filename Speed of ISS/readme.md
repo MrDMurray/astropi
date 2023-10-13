@@ -11,6 +11,10 @@ The speed of an object in constant motion can be calculated using the simple for
 \text{Speed} = \frac{\text{Distance}}{\text{Time}}
 \]
 
+![equation](https://latex.codecogs.com/gif.latex?Speed%20%3D%20%5Cfrac%7BDistance%7D%7BTime%7D)
+
+
+
 We can use this formula to calculate the speed of the International Space Station (ISS) as it orbits Earth.
 
 ### The Math Behind It
