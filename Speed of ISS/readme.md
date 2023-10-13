@@ -1,39 +1,40 @@
+## Method 1: Getting Speed Using Distance and Time
 
-## Method 1 Getting speed using Distance and times
+### Calculating the Speed of the ISS Using Speed-Distance-Time Formula
 
-## Calculating the Speed of the ISS Using Speed-Distance-Time Formula
-
-### Introduction
+#### Introduction
 
 The speed of an object in constant motion can be calculated using the simple formula:
 
-``` Speed = Distance / Time```
+\`\`\`
+Speed = Distance / Time
+\`\`\`
 
 We can use this formula to calculate the speed of the International Space Station (ISS) as it orbits Earth.
 
-### The Math Behind It
+#### The Math Behind It
 
 1. **Orbit Circumference**: The ISS orbits Earth at an altitude of about 408,000 meters. The Earth's radius is approximately 6,371,000 meters. To find the distance the ISS travels in one complete orbit, we calculate the circumference of the circle defined by its orbit:
 
-\[
-\text{Circumference} = 2 \times \pi \times (\text{Earth's Radius + ISS Altitude})
-\]
+\`\`\`
+Circumference = 2 * pi * (Earth's Radius + ISS Altitude)
+\`\`\`
 
 2. **Time for One Orbit**: The ISS takes about 92 minutes to complete one orbit. To convert this time into seconds (for consistency with our distance unit, meters), we use:
 
-\[
-\text{Time in seconds} = 92 \times 60
-\]
+\`\`\`
+Time in seconds = 92 * 60
+\`\`\`
 
 3. **Speed of ISS**: With the Distance (Circumference) and Time known, we can now find the speed using the formula:
 
-\[
-\text{Speed} = \frac{\text{Circumference}}{\text{Time in seconds}}
-\]
+\`\`\`
+Speed = Circumference / Time in seconds
+\`\`\`
 
-### Python Code
+#### Python Code
 
-```python
+\`\`\`python
 import math
 
 # Constants
@@ -48,31 +49,31 @@ orbit_circumference = 2 * math.pi * (earth_radius + iss_altitude)
 iss_speed = orbit_circumference / orbit_time
 
 print("The speed of the ISS is approximately", round(iss_speed, 2), "meters per second.")
+\`\`\`
 
+---
 
-
-
-
-
-## Method 2 Gravitational Force
+## Method 2: Gravitational Force
 
 The gravitational force between two masses is given by the formula:
 
-\[
-F = \frac{G \times m_1 \times m_2}{r^2}
-\]
+\`\`\`
+F = (G * m1 * m2) / r^2
+\`\`\`
 
-Here, \( F \) is the gravitational force, \( G \) is the gravitational constant, \( m_1 \) and \( m_2 \) are the masses, and \( r \) is the distance between them.
+Here, `F` is the gravitational force, `G` is the gravitational constant, `m1` and `m2` are the masses, and `r` is the distance between them.
 
-The centripetal force \( F \) that keeps the ISS in orbit is equal to \( m \times a \), where \( m \) is the mass of the ISS and \( a \) is the centripetal acceleration, \( \frac{v^2}{r} \).
+The centripetal force `F` that keeps the ISS in orbit is equal to `m * a`, where `m` is the mass of the ISS and `a` is the centripetal acceleration, `v^2 / r`.
 
-Equating the two forces and solving for velocity \( v \), we get:
+Equating the two forces and solving for velocity `v`, we get:
 
-\[
-v = \sqrt{\frac{G \times M}{r}}
-\]
+\`\`\`
+v = sqrt(G * M / r)
+\`\`\`
 
 Where:
-- \( G \) is the gravitational constant \( 6.67430 \times 10^{-11} \, \text{m}^3/\text{kg s}^2 \)
-- \( M \) is the mass of Earth \( 5.972 \times 10^{24} \, \text{kg} \)
-- \( r \) is the distance from the center of Earth to the ISS
+- `G` is the gravitational constant `6.67430 x 10^-11 m^3/kg s^2`
+- `M` is the mass of Earth `5.972 x 10^24 kg`
+- `r` is the distance from the center of Earth to the ISS
+
+---
