@@ -69,8 +69,8 @@ def calculate_speed_in_kmps(feature_distance, GSD, time_difference):
     return speed
 
 
-image_1 = 'photo_1754.jpg'
-image_2 = 'photo_1755.jpg'
+image_1 = 'photo_exoclass1.jpg'
+image_2 = 'photo_exoclass2.jpg'
 
 
 
